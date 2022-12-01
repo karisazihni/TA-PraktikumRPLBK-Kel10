@@ -48,9 +48,10 @@ export default function AllWisdom() {
             {quotes.filter((val)=> {
               if (searchTerm == ""){
                 return val
-              } else if (val.author.includes(searchTerm))
+              } else
               {
-                return val
+                val = val.author;
+                return val === searchTerm
               }
             }).map((val, key) => {
               return(
