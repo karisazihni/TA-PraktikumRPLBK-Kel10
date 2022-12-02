@@ -1,0 +1,52 @@
+.card {
+  background: whitesmoke;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 2%;
+  box-shadow: 10px 10px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  height: 582px;
+}
+
+.containerBig {
+    padding-left: 0px;
+  }
+  
+  .posterBig {
+    width: 140px;
+    height: 200px;
+    border-radius: 2px;
+    border-radius: 10px;
+  }
+  
+  .descriptionBig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #title {
+    color: rgb(38, 81, 88);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana;
+  }
+  
+  #genre {
+    color: grey;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  
+  
